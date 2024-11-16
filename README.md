@@ -1,2 +1,1 @@
-# ToyotaChallenge
-HackUTD 2024 Toyota Challenge Problem
+# HackUTD 2024 Challenge
