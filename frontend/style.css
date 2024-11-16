@@ -1,0 +1,37 @@
+body{
+     font-family: 'Times New Roman', serif;
+     font-size: 20px;
+     color: darkgreen;
+     margin: 0;
+     padding: 0;
+     background-color: #008000;
+}
+
+header {
+    background-color: #fffcfc;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    
+}
+
+h1 {
+    font-family:'Courier New', monospace;
+    color: darkblue;
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #f3ebeb;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
