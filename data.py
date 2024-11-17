@@ -21,8 +21,7 @@ dfRuthless.to_csv(r'HackUTD-2024\data\Ruthless_745H-10_01-10_08.csv', index=Fals
 print(dfRuthless)
 
 
-# Check current working directory
-print("Current Working Directory:", os.getcwd())
+
 
 # List of CSV filenames in the 'data' folder
 csv_files = [
