@@ -1,285 +1,368 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>YourBrand | Home</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-  <style>
-    /* General Styles */
-    body {
-      margin: 0;
-      font-family: 'Libre Baskerville', serif;
-      color: #333;
-      line-height: 1.6;
-    }
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>YourBrand | Home</title>
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+ <style>
+   /* General Styles */
+   body {
+     margin: 0;
+     font-family: 'Libre Baskerville', serif;
+     color: #333;
+     line-height: 1.6;
+   }
 
-    a {
-      text-decoration: none;
-      color: inherit;
-    }
 
-    h1, h2, h3 {
-      margin: 0;
-    }
+  
 
-    /* Navigation Bar */
-    nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 15px 30px;
-      background-color: rgb(250, 248, 245);
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
 
-    nav .logo {
-      font-size: 24px;
-      font-weight: bold;
-      color: #00796b;
-    }
+   a {
+     text-decoration: none;
+     color: inherit;
+   }
 
-    nav ul {
-      list-style: none;
-      display: flex;
-      margin: 0;
-      padding: 0;
-    }
 
-    nav ul li {
-      margin-left: 20px;
-    }
+   h1, h2, h3 {
+     margin: 0;
+   }
 
-    nav ul li a {
-      font-size: 20px;
-      font-weight: 400;
-      color: #555;
-      transition: color 0.3s;
-    }
 
-    nav ul li a:hover {
-      color: #00796b;
-    }
-
-    /* Hero Section */
-    .hero {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 75vh;
-      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/736x/9f/e8/ce/9fe8ce001f5ee4ecb648d50fbd7e5944.jpg') no-repeat center center/cover;
-      color: white;
-      text-align: center;
-      padding: 20px;
-    }
-
-    .hero-content {
-      max-width: 600px;
-    }
-
-    .hero h1 {
-      font-size: 50px;
-      font-weight: 600;
-      margin-bottom: 20px;
-    }
-
-    .hero p {
-      font-size: 20px;
-      margin-bottom: 30px;
-    }
-
-    .hero .btn {
-      padding: 12px 30px;
-      background-color: #f4a258;
-      color: white;
-      font-size: 18px;
-      border-radius: 50px;
-      transition: background-color 0.3s;
-    }
-
-    .hero .btn:hover {
-      background-color: #009f8b;
-    }
-
-    .about {
-      padding: 80px 20px;
-      text-align: center;
-      background-color: #fcf3e3;
-    }
-
-    .about h2 {
-      color: #024b70; /* This color will now apply to "About Us" */
-      font-size: 40px;
-      margin-bottom: 20px;
-    }
-
-    .about p {
-      color: #024b70;
-      font-size: 18px;
-      max-width: 700px;
-      margin: 0 auto 40px;
-    }
-
-    .about img {
-      width: 80%;
-      max-width: 400px;
-      border-radius: 10px;
-      box-shadow: 0 5px 15px #013d5a;
-    }
-    /* About Section */
-.about {
-  padding: 80px 20px;
-  background-color: rgba(245, 238, 222, 0.9);
+   /* Navigation Bar */
+   nav {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 15px 30px;
+ background-color: rgb(250, 248, 245);
+ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ position: sticky;
+ top: 0;
+ z-index: 1000;
 }
+
+
+.logo-container {
+ display: flex;
+ align-items: center;
+}
+
+
+.logo-container img {
+ width: 40px; /* Adjust the size as needed */
+ height: 40px;
+ margin-right: 10px; /* Space between the image and the text */
+}
+
+
+.logo {
+ font-size: 24px;
+ font-weight: bold;
+ color: #00796b;
+}
+
+
+
+
+   nav .logo {
+     font-size: 24px;
+     font-weight: bold;
+     color: #00796b;
+   }
+
+
+   nav ul {
+     list-style: none;
+     display: flex;
+     margin: 0;
+     padding: 0;
+   }
+
+
+   nav ul li {
+     margin-left: 20px;
+   }
+
+
+   nav ul li a {
+     font-size: 20px;
+     font-weight: 400;
+     color: #555;
+     transition: color 0.3s;
+   }
+
+
+   nav ul li a:hover {
+     color: #00796b;
+   }
+
+
+   /* Hero Section */
+   .hero {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 75vh;
+     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/736x/ed/02/e3/ed02e32505219e2551068165a8bdbd23.jpg') no-repeat center center/cover;
+     color: white;
+     text-align: center;
+     padding: 20px;
+    
+   }
+
+
+  
+
+
+   .hero-content {
+     max-width: 600px;
+   }
+
+
+   .hero h1 {
+     font-size: 50px;
+     font-weight: 600;
+     margin-bottom: 20px;
+     animation: bounce 2s ease-out 1; /* animtion*/
+   }
+
+
+   @keyframes bounce {
+     0% {
+       transform: translateY(0);
+     }
+     30% {
+       transform : translateY(-50px); /* move up*/
+     }
+     60% {
+       transform: translateY(15px);
+     }
+     100% {
+       transform: translateY(0);
+     }
+   }
+   .hero p {
+     font-size: 20px;
+     margin-bottom: 30px;
+   }
+
+
+   .hero .btn {
+     padding: 12px 30px;
+     background-color: #f4a258;
+     color: white;
+     font-size: 18px;
+     border-radius: 50px;
+     transition: background-color 0.3s;
+   }
+
+
+   .hero .btn:hover {
+     background-color: #009f8b;
+   }
+
+
+   .about {
+     padding: 80px 20px;
+     text-align: center;
+     background-color: #fcf3e3;
+   }
+
+
+   .about h2 {
+     color: #024b70; /* This color will now apply to "About Us" */
+     font-size: 40px;
+     margin-bottom: 20px;
+   }
+
+
+   .about p {
+     color: #024b70;
+     font-size: 18px;
+     max-width: 700px;
+     margin: 0 auto 40px;
+   }
+
+
+   .about img {
+     width: 80%;
+     max-width: 400px;
+     border-radius: 10px;
+     box-shadow: 0 5px 15px #013d5a;
+   }
+   /* About Section */
+.about {
+ padding: 80px 20px;
+ background-color: rgba(245, 238, 222, 0.9);
+}
+
 
 .about-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ gap: 20px;
+ max-width: 1200px;
+ margin: 0 auto;
 }
+
 
 .about-text {
-  flex: 1;
-  min-width: 250px;
-  max-width: 400px;
-  text-align: top ;
+ flex: 1;
+ min-width: 250px;
+ max-width: 400px;
+ text-align: top ;
 }
+
 
 .about-text h2 {
-  font-size: 28px;
-  margin-bottom: 15px;
-  color: #00796b;
+ font-size: 28px;
+ margin-bottom: 15px;
+ color: #00796b;
 }
+
 
 .about-text p {
-  font-size: 16px;
-  line-height: 1.6;
+ font-size: 16px;
+ line-height: 1.6;
 }
+
 
 .about-image {
-  flex: 1;
-  text-align: top;
+ flex: 1;
+ text-align: top;
 }
 
 
-    /* Services Section */
-    .services {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 20px;
-      padding: 50px 20px;
-      background-color: #013d50;
-    }
 
-    .service {
-      background-color: #f9f9f9;
-      border-radius: 10px;
-      padding: 30px;
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-      text-align: center;
-      transition: transform 0.3s, box-shadow 0.3s;
-    }
 
-    .service:hover {
-      transform: translateY(-10px);
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    }
+   /* Services Section */
+   .services {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+     gap: 20px;
+     padding: 50px 20px;
+     background-color: #013d50;
+   }
 
-    .service h3 {
-      font-size: 24px;
-      margin-bottom: 15px;
-      color: #013d50;
-    }
 
-    .service p {
-      font-size: 16px;
-    }
+   .service {
+     background-color: #f9f9f9;
+     border-radius: 10px;
+     padding: 30px;
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+     text-align: center;
+     transition: transform 0.3s, box-shadow 0.3s;
+   }
 
-    /* Footer Section */
-    footer {
-      background-color: #1a1a1a;
-      color: #ffffff;
-      text-align: center;
-      padding: 20px 0;
-    }
 
-    footer p {
-      font-size: 14px;
-      margin: 0;
-    }
-  </style>
+   .service:hover {
+     transform: translateY(-10px);
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+   }
+
+
+   .service h3 {
+     font-size: 24px;
+     margin-bottom: 15px;
+     color: #013d50;
+   }
+
+
+   .service p {
+     font-size: 16px;
+     color: #013d50
+   }
+
+
+   /* Footer Section */
+   footer {
+     background-color: #1a1a1a;
+     color: #ffffff;
+     text-align: center;
+     padding: 20px 0;
+   }
+
+
+   footer p {
+     font-size: 14px;
+     margin: 0;
+   }
+ </style>
 </head>
 <body>
 
-  <!-- Navigation Bar -->
-  <nav>
-    <div class="logo">eog resources</div>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
 
-  <!-- Hero Section -->
-  <section class="hero" id="home">
-    <div class="hero-content">
-      <h1>Hydrate Detection</h1>
-      <p>Start learning about hydrate detections.</p>
-      <a href="uploadFile.html" class="btn">Get Started</a>
-    </div>
-  </section>
+ <!-- Navigation Bar -->
+ <nav>
+   <div class="logo-container">
+     <img src="https://s3-symbol-logo.tradingview.com/eog--600.png" alt="Logo">
+     <span class="logo">eog resources</span>
+   </div>
+   <ul>
+     <li><a href="#home">Home</a></li>
+     <li><a href="#about">About</a></li>
+     <li><a href="#services">Services</a></li>
+     <li><a href="#contact">Contact</a></li>
+   </ul>
+ </nav>
 
-  <!-- About Section -->
-  <section class="about" id="about">
-    <h2>About Us</h2>
-    <p>Click the button above to upload files to visualize your data.</p>
-    <img src="https://s3-symbol-logo.tradingview.com/eog--600.png" alt="About Us">
-  </section>
 
-  <section class="about" id="about">
-    <div class="about-container">
-      <div class="about-text left">
-        <h2>About Us</h2>
-        <p>Our website allows users to upload data files to generate a data visualization of the impact of hydrate formations. Our graphs allow user to see thresholds and setpoints.</p>
-      </div>
-      <div class="about-image">
-      </div>
-      <div class="about-text right">
-        <h2>Our Mission</h2>
-        <p>Our mission is to provide tools for  analysis and comparison in the form of graphs and charts.</p>
-    </div>
-  </section>
-  
-  <!-- Services Section -->
-  <section class="services" id="services">
-    <div class="service">
-      <h3>Consulting</h3>
-      <p>Expert advice to drive your business forward.</p>
-    </div>
-    <div class="service">
-      <h3>Development</h3>
-      <p>Custom software solutions tailored to your needs.</p>
-    </div>
-    <div class="service">
-      <h3>Marketing</h3>
-      <p>Data-driven strategies to expand your reach.</p>
-    </div>
-  </section>
+ <!-- Hero Section -->
+ <section class="hero" id="home">
+   <div class="hero-content">
+     <h1>Hydrate Detection</h1>
+     <p>Start learning about hydrate detections.</p>
+     <a href="uploadFile.html" class="btn">Get Started</a>
+   </div>
+ </section>
 
-  <!-- Footer Section -->
-  <footer>
-    <p>&copy; 2024 YourBrand. All rights reserved.</p>
-  </footer>
+
+ <!-- About Section -->
+ <section class="about" id="about">
+   <div class="about-container">
+     <!-- Left Side: About Us Text -->
+     <div class="about-text">
+       <h2>About Us</h2>
+       <p>Our website allows users to upload data files to generate a data visualization of the impact of hydrate formations. Our graphs allow users to see thresholds and setpoints.</p>
+     </div>
+      <!-- Image in the Center -->
+     <div class="about-image">
+       <img src="https://s3-symbol-logo.tradingview.com/eog--600.png" alt="About Us">
+     </div>
+      <!-- Right Side: Our Mission Text -->
+     <div class="about-text">
+       <h2>Our Mission</h2>
+       <p>Our mission is to provide tools for analysis and comparison in the form of graphs and charts.</p>
+     </div>
+   </div>
+ </section>
+ 
+ <!-- Services Section -->
+ <section class="services" id="services">
+   <div class="service">
+     <h3>Data Visualization</h3>
+     <p>This application lets you visualize the data by provising graphs and charts!</p>
+   </div>
+   <div class="service">
+     <h3>Development</h3>
+     <p>Custom software solutions tailored to your needs.</p>
+   </div>
+   <div class="service">
+     <h3>Analysis</h3>
+     <p>Analyze the data and understand what the key patterns or trends are.  </p>
+   </div>
+ </section>
+
+
+ <!-- Footer Section -->
+ <footer>
+   <p>&copy; 2024 YourBrand. All rights reserved.</p>
+ </footer>
+
 
 </body>
 </html>
