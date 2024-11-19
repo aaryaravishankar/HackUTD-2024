@@ -21,8 +21,7 @@ dfRuthless.to_csv(r'HackUTD-2024\data\Ruthless_745H-10_01-10_08.csv', index=Fals
 print(dfRuthless)
 
 
-# Check current working directory
-print("Current Working Directory:", os.getcwd())
+
 
 # List of CSV filenames in the 'data' folder
 csv_files = [
@@ -47,5 +46,16 @@ combined_df = pd.concat(dataframes, ignore_index=True)
 # Display the combined DataFrame
 print(combined_df)
 
+
+
 # making a new csv file for the data - DONE !
-#  combined_df.to_csv(r'combinedDataset.csv', index=False)
+# combined_df.to_csv(r'combinedDataset.csv', index=False)
+
+combined_df2 = pd.read_csv(r'HackUTD-2024\combinedDataset.csv')
+combined_df2['Inj Gas Valve Percent Open'] = combined_df2['Inj Gas Valve Percent Open'].ffill()
+
+# making a new csv file for the data - DONE !
+combined_df2.to_csv(r'HackUTD-2024\combinedDataset.csv', index=False)
+
+
+
